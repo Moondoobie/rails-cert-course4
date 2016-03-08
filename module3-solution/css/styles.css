@@ -22,6 +22,8 @@ body {
   line-height: .75;
   margin-top: 0;
   margin-bottom: 0;
+  border: 0;
+  border-color: #000;
 }
 
 
@@ -36,6 +38,11 @@ body {
   	background-color: #888;
 	border-color: #000;
 	opacity: .5;
+}
+
+#top {
+  border: 0;
+  border-color: #000;
 }
 
 .chicken {
@@ -94,4 +101,12 @@ p {
 
 #column {
 	margin-bottom: 50px;
+}
+
+.navbar-header: focus {
+	border-style: none;
+}
+
+*:focus {
+    outline: none;
 }
