@@ -61,18 +61,22 @@ a.sushi a:hover{
 }
 
 h2 {
-	margin-top: 30px;
+	margin-top: 50px;
 	margin-bottom: 30px;
 }
 
 h3 {
 	font-size: 1.5em;
 	margin-bottom: 30px;
-
+    margin-top: 30px;
 }
 
 .lots {
 	padding: 30px;
 	background-color: #222;
 	width: 100%;
+}
+
+.row a {
+	color: ccc;
 }
