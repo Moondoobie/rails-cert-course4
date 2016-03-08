@@ -11,8 +11,12 @@ body {
 	border: 0;
 }
 
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
 .navbar-brand h1 { 
-  color: #333;
+  color: #4871ad;
   font-size: 1.75em;
   font-weight: bold;
   line-height: .75;
@@ -20,9 +24,7 @@ body {
   margin-bottom: 0;
 }
 
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
-}
+
 
 .navbar-header button {
   	background-color: #9fbcbf;
@@ -62,13 +64,13 @@ a.sushi a:hover{
 
 h2 {
 	margin-top: 50px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 h3 {
 	font-size: 1.5em;
 	margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .lots {
@@ -77,6 +79,19 @@ h3 {
 	width: 100%;
 }
 
+p {
+	margin-bottom: 40px;
+}
+
 .row a {
-	color: ccc;
+	color: #d5fbff;
+	width: 100%;
+}
+
+#return span {
+	color: #d5fbff;
+}
+
+#column {
+	margin-bottom: 50px;
 }
